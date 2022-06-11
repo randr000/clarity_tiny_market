@@ -6,6 +6,10 @@ telemetry = false
 requirements = []
 cache_dir = "/home/raul/.clarinet/cache"
 boot_contracts = ["pox", "costs-v2", "bns"]
+[contracts.sip009-nft-trait]
+path = "contracts/sip009-nft-trait.clar"
+depends_on = []
+
 [contracts.tiny-market]
 path = "contracts/tiny-market.clar"
 depends_on = []
